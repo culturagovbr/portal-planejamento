@@ -1,0 +1,34 @@
+{
+  "browserSync" : {
+    "server" : {
+      "baseDir" : "./public"
+    }
+  },
+  "paths" : {
+    "html" : {
+      "src"  : "src/*.html",
+      "watch" : "src/**/*.html",
+      "dist" : "public/"
+    },
+    "images" : {
+      "src" : "src/images/**",
+      "dist" : "public/dist/images"
+    },
+    "fonts" : {
+      "src" : "src/fonts/**",
+      "dist" : "public/dist/fonts/"
+    },
+    "vendor" : {
+      "src" : "src/vendor/**",
+      "dist" : "public/dist/vendor/"
+    },
+    "styles" : {
+      "src" : "src/styles/**/*.{scss,sass}",
+      "dist" : "public/dist/css/"
+    },
+    "scripts" : {
+      "src" : "src/scripts/*.js",
+      "dist" : "public/dist/js/"
+    }
+  }
+}
